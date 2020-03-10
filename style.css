@@ -5,9 +5,15 @@
 }
 
 body {
-    background-color: #F1FAEE;
+    background-color: #05141B;
     font-family: 'Roboto', Helvetica, sans-serif;
 }
+
+h1 { color: rgb(246, 247, 248); }
+
+#column1 { background-color: #005CA7; }
+#column2{ background-color: #2388D0; }
+#column3 { background-color: #01A1B9; }
 
 .app {
 	display: flex;
@@ -21,13 +27,15 @@ header {
 	justify-content: center;
 	align-items: center;
 	height: 60px;
+	margin: 20px 0;
 }
 
 .lists {
     display: flex;
     flex: 1;
-    width: 100%;
-    overflow: scroll;
+	width: 100%;
+	justify-content: center;
+	margin-bottom: 23px;;
 }
 
 .lists .list {
@@ -48,9 +56,14 @@ header {
 }
 
 .lists .list .list-item {
-	background-color: #F3F3F3;
+	background-color: #BCE5FB;
 	border-radius: 8px;
 	padding: 15px 20px;
 	text-align: center;
 	margin: 4px 0px;
+	font-weight: 600;
+	font-size: 20px;
+	letter-spacing: 1px;;
 }
+
+.list {border-radius: 10px; }
